@@ -1,7 +1,7 @@
 ; (plugin
-;  (name main)
+;  (name yaml_test)
 ;  (package yaml_test)
-;  (libraries yaml_test)
+;  (libraries yaml_test yaml yaml.unix yaml_test.plugin)
 ;  (site (bap-common plugins)))
 
 (executable

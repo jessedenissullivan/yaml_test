@@ -21,7 +21,7 @@
  (name yaml_test)
  (synopsis "A short synopsis")
  (description "A longer description")
- (depends ocaml dune yaml.unix)
+ (depends ocaml dune bap yaml yaml.unix)
  (tags
   (topics "to describe" your project)))
 

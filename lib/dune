@@ -1,6 +1,4 @@
 (library
  (name yaml_test)
- (public_name yaml_test)
- (flags (-linkall))
- (libraries yaml.unix)
- )
+ (public_name yaml_test.plugin)
+ (libraries bap bap-main yaml yaml.unix))

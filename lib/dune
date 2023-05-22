@@ -1,0 +1,6 @@
+(library
+ (name yaml_test)
+ (public_name yaml_test)
+ (flags (-linkall))
+ (libraries yaml.unix)
+ )
